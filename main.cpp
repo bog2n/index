@@ -1,7 +1,7 @@
 #include <iostream>
 #include <math.h>
-#include "funkcje.h"
-#include "rozwiazanie.h"
+#include "funkcje.cpp"
+#include "rozwiazanie.cpp"
 
 using namespace std;
 
