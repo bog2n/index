@@ -8,9 +8,7 @@ using namespace std;
 
 int main() {
 	int n;
-	int kroki=0;
 	cin >> n;
-	tak(n, &kroki);
-	cout << kroki << endl;
+	cout << licz('x', n) << endl;
 	return 0;
 }
