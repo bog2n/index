@@ -1,4 +1,4 @@
 all:
-	g++ main.cpp -lm -o main
+	g++ main.cpp -lm -g -o main
 clean:
 	if [ -e main ]; then rm main; fi

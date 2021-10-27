@@ -37,3 +37,8 @@ int p(int n) {
 	}
 	return n;
 }
+
+bool isSquare(int n) {
+	if(pow(round(sqrt(n)),2) == n) return true;
+	else return false;
+}
